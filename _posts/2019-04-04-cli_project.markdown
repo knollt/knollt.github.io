@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "CLI project"
-date:       2019-04-04 23:42:28 +0000
+date:       2019-04-04 19:42:29 -0400
 permalink:  cli_project
 ---
 
@@ -33,6 +33,6 @@ That hardest part for me was understanding the relationships.  The main relation
 
 First, if a class "has many" of another, it will have an array of the second class in its initialize method.  Second, if one class "belongs to" another, it will have the name of the class that it belongs to listed under attr_accessor. Then set the writer method to equal an instance of the class it belongs to.  Third for "has many of each other" relationships, both of the previous programatic language (belongs to and has many) has to be built into both classes.  Finally, the “has many through” relationship in includes there are at least three classes involved.  A way to recognize a "has many" relationship is it will have an array of the second class in the initialize method.
 
-I only used "has many" and "belongs to" in this project and to be honest I still get confused sometimes.  I wrote this post after completing my project thus it was good vocabulary and concept refresher.  
+I only used "has many" and "belongs to" in this project and to be honest I still get confused sometimes.  I wrote this post after completing my project thus it was good a vocabulary and concept refresher.  
 
 On to the next project.
